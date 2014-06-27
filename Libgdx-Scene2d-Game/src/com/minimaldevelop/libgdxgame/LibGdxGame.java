@@ -12,4 +12,5 @@ public class LibGdxGame extends Game {
 		setScreen(new SplashScreen(this));
 	}
 	
+	
 }
