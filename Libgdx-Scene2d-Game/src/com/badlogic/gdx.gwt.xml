@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="com.badlogic.gdx">
+	<inherits name="com.esotericsoftware.tablelayout"/>
+	<source path="gdx">
+		<include name="src/com/minimaldevelop/libgdxgame/Assets.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/actors/FallingMan.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/GameItem.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/screens/GameScreen.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/InputHandler.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/LibGdxGame.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/screens/MainMenuScreen.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/OverlapTester.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/actors/Platforms.java"/>
+		<include name="src/com/minimaldevelop/libgdxgame/screens/SplashScreen.java"/>
+		<include name="graphics/g2d/Animation.java"/>
+		<include name="graphics/g3d/Animation.java"/>
+	</source>
+</module>
