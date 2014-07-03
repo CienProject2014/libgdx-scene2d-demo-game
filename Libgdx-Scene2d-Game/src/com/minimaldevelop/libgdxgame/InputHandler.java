@@ -16,13 +16,21 @@ public class InputHandler extends InputListener {
 	
 	public boolean touchDown(InputEvent event, float x, float y,
 			int pointer, int button) {
+<<<<<<< HEAD
 		System.out.println("down"); //마우스를 터치하면 어떤 반응
+=======
+		System.out.println("down1");
+>>>>>>> origin/Hajin
 		return true;
 	}
 
 	public void touchUp(InputEvent event, float x, float y, int pointer,
 			int button) {
+<<<<<<< HEAD
 		System.out.println("up"); //역시 마우스를 터치하면 반응 , touchDown이 true를반환 하거나 False를 반환하느냐에 따라 달라짐.
+=======
+		System.out.println("up1");
+>>>>>>> origin/Hajin
 	}
 
 	@Override
@@ -32,7 +40,7 @@ public class InputHandler extends InputListener {
 		switch (keycode) {
 		case Keys.W:
 			Gdx.app.log("", "Usao sam u W down");
-			piggy.moveFallingManUpDown(2f);
+			piggy.moveFallingManUpDown(0f);
 //			pigModel.setLinearVelocity(0f, 1.0f);
 			// felix.getVelocity().y = 1;
 			break;

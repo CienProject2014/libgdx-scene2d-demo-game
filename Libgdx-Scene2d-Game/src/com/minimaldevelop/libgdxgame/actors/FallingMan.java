@@ -36,7 +36,7 @@ public class FallingMan extends Actor {
 	public FallingMan(World world) {
 		this.world = world;
 		
-		addListener(listener);		
+		addListener(listener);
 		restartFallingMan();
 	}
 	
@@ -104,8 +104,8 @@ public class FallingMan extends Actor {
 		FixtureDef fd = new FixtureDef();
 		// fd.shape = circle;
 		fd.density = 0.1f;
-		fd.friction = 0.5f; // trenje
-		fd.restitution = 0.3f; // odbijanje
+		fd.friction = 0.5f; // trenje ¸¶Âû
+		fd.restitution = 0.3f; // odbijanje °ÅÀý
 
 		if (fallingManBody!=null) removeBodySafely(fallingManBody);
 		
@@ -179,7 +179,7 @@ public class FallingMan extends Actor {
 
 		public boolean touchDown(InputEvent event, float x, float y,
 				int pointer, int button) {
-			System.out.println("down");
+			System.out.println("down2");
 			
 			restartFallingMan();
 			return true;
@@ -187,7 +187,7 @@ public class FallingMan extends Actor {
 
 		public void touchUp(InputEvent event, float x, float y, int pointer,
 				int button) {
-			System.out.println("up");
+			System.out.println("up2");
 		}
 
 	};
