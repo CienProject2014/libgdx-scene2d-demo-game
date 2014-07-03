@@ -8,21 +8,21 @@ import com.minimaldevelop.libgdxgame.actors.FallingMan;
 
 public class InputHandler extends InputListener {
 	
-	FallingMan piggy;
+	FallingMan piggy; //FallingMan이라는 class 변수 piggy를 선언
 	
 	public InputHandler(FallingMan piggy) {
-		this.piggy = piggy;
+		this.piggy = piggy; //생성자
 	}
 	
 	public boolean touchDown(InputEvent event, float x, float y,
 			int pointer, int button) {
-		System.out.println("down");
+		System.out.println("down"); //마우스를 터치하면 어떤 반응
 		return true;
 	}
 
 	public void touchUp(InputEvent event, float x, float y, int pointer,
 			int button) {
-		System.out.println("up");
+		System.out.println("up"); //역시 마우스를 터치하면 반응 , touchDown이 true를반환 하거나 False를 반환하느냐에 따라 달라짐.
 	}
 
 	@Override
@@ -37,16 +37,16 @@ public class InputHandler extends InputListener {
 			// felix.getVelocity().y = 1;
 			break;
 		case Keys.S:
-			// felix.getVelocity().y = -4;
+			// felix.getVelocity().y = -4; //내려가는 키는 업음
 			
 			break;
 		case Keys.A:
 			// felix.getVelocity().x = -1;
-			piggy.moveFallingManLeftRight(-5f);
+			piggy.moveFallingManLeftRight(-5f); //좌로이동
 			break;
 		case Keys.D:
 			// felix.getVelocity().x = 1;
-			piggy.moveFallingManLeftRight(5f);
+			piggy.moveFallingManLeftRight(5f); //우로이동
 			break;
 		default:
 			break;
