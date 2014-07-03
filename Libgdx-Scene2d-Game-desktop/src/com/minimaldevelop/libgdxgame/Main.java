@@ -8,8 +8,13 @@ public class Main {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
 		cfg.title = "Libgdx-Scene2d-Game";
 		cfg.useGL20 = true;
+<<<<<<< HEAD
+		cfg.width = 460;
+		cfg.height = 790;
+=======
 		cfg.width = 470;
 		cfg.height = 800;
+>>>>>>> master
 		
 		new LwjglApplication(new LibGdxGame(), cfg);
 	}
