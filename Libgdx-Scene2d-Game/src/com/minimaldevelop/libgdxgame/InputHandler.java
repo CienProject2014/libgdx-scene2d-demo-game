@@ -16,13 +16,13 @@ public class InputHandler extends InputListener {
 	
 	public boolean touchDown(InputEvent event, float x, float y,
 			int pointer, int button) {
-		System.out.println("down");
+		System.out.println("down1");
 		return true;
 	}
 
 	public void touchUp(InputEvent event, float x, float y, int pointer,
 			int button) {
-		System.out.println("up");
+		System.out.println("up1");
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class InputHandler extends InputListener {
 		switch (keycode) {
 		case Keys.W:
 			Gdx.app.log("", "Usao sam u W down");
-			piggy.moveFallingManUpDown(2f);
+			piggy.moveFallingManUpDown(0f);
 //			pigModel.setLinearVelocity(0f, 1.0f);
 			// felix.getVelocity().y = 1;
 			break;

@@ -6,7 +6,7 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 public class Main {
 	public static void main(String[] args) {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
-		cfg.title = "Libgdx-Scene2d-Game";
+		cfg.title = "Cien";
 		cfg.useGL20 = true;
 		cfg.width = 450;
 		cfg.height = 800;
